@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.calculator {
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 7px;  
+    background-color: teal;  
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+}
+
+.display {
+    width: 100%; /* takes 100% width which is full width of the parent element*/
+    height: 80px;
+    border:none;
+    box-sizing: border-box; /* width and height of an element includes its padding and border too, Eg. if we define an element height 100px then its total ehight is 100px with its padding and border*/
+    padding: 10px;
+    font-size: 2rem;
+    background-color: rgb(158, 224, 224);
+    color: black;
+    text-align: right;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+.row {
+    display: flex; /* manage the elements inside it properly*/
+    justify-content: space-between;  /* add space between each element inside it*/
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.double {
+    width: 42.5%;
+}
+
+.triple {
+    width: 67%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.operator {
+    background-color:rgb(158, 224, 224);
+    color: black;
+}
+
