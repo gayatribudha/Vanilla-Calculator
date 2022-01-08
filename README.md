@@ -10,4 +10,4 @@ This is a simple addition, substraction, multiplication and deivision calculator
 ### Instructions to run
 - Simply clone the repository into your local computer
 - Open index.html file in your browser
-- Try some calutation :)
+- Try some calutations :)
